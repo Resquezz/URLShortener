@@ -1,0 +1,75 @@
+body {
+    margin-bottom: 0;
+    background-color: #f8f9fa;
+}
+
+.app-shell {
+    min-height: 100vh;
+}
+
+.app-header {
+    border-bottom: 1px solid #dee2e6;
+    background: #fff;
+}
+
+.app-main {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.brand {
+    font-weight: 700;
+    text-decoration: none;
+    color: #212529;
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+.long-url {
+    max-width: 520px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.short-link {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.card-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.message-box {
+    min-height: 1.5rem;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 0.75rem 1rem;
+}
+
+.info-key {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: 0.25rem;
+    }
+
+    .long-url {
+        max-width: 260px;
+    }
+}
